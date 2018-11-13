@@ -1,0 +1,62 @@
+[20-Jan-2017 12:09:01 Etc/GMT] PHP Fatal error:  Uncaught exception 'Exception' with message 'This library must be installed via composer or by downloading the full package. See the instructions at https://github.com/google/google-api-php-client#installation.' in /home/aspenstrong/public_html/analytics/google-api-php-client-master/src/Google/autoload.php:14
+Stack trace:
+#0 /home/aspenstrong/public_html/analytics/HelloAnalytics.php(6): require_once()
+#1 /home/aspenstrong/public_html/analytics/HelloAnalytics.php(70): getService()
+#2 {main}
+  thrown in /home/aspenstrong/public_html/analytics/google-api-php-client-master/src/Google/autoload.php on line 14
+[20-Jan-2017 12:57:49 Etc/GMT] PHP Warning:  require_once(google-api-php-client-master/src/Google/autoload.php): failed to open stream: No such file or directory in /home/aspenstrong/public_html/analytics/HelloAnalytics.php on line 6
+[20-Jan-2017 12:57:49 Etc/GMT] PHP Fatal error:  require_once(): Failed opening required 'google-api-php-client-master/src/Google/autoload.php' (include_path='.:/opt/alt/php54/usr/share/pear:/opt/alt/php54/usr/share/php') in /home/aspenstrong/public_html/analytics/HelloAnalytics.php on line 6
+[20-Jan-2017 12:58:10 Etc/GMT] PHP Fatal error:  Call to undefined method Google_Client::useApplicationDefaultCredentials() in /home/aspenstrong/public_html/analytics/HelloAnalytics.php on line 11
+[20-Jan-2017 13:00:29 Etc/GMT] PHP Fatal error:  Call to undefined method Google_Client::useApplicationDefaultCredentials() in /home/aspenstrong/public_html/analytics/HelloAnalytics.php on line 11
+[20-Jan-2017 13:01:33 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/analytics/v3/management/accounts: (401) Login Required' in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php(593): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/aspenstrong/public_html/analytics/ in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php on line 110
+[24-Jan-2017 12:25:08 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/analytics/v3/management/accounts: (401) Login Required' in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php(593): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/aspenstrong/public_html/analytics/ in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php on line 110
+[24-Jan-2017 12:25:18 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/analytics/v3/management/accounts: (401) Login Required' in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php(593): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/aspenstrong/public_html/analytics/ in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php on line 110
+[24-Jan-2017 12:31:21 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/analytics/v3/management/accounts: (401) Login Required' in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php:110
+Stack trace:
+#0 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php(62): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Task/Runner.php(174): call_user_func_array(Array, Array)
+#3 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php(46): Google_Task_Runner->run()
+#4 /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php(593): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/aspenstrong/public_html/analytics/ in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Http/REST.php on line 110
+[25-Jan-2017 05:38:44 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Exception' with message 'Invalid client secret JSON file.' in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php:171
+Stack trace:
+#0 /home/aspenstrong/public_html/analytics/HelloAnalytics.php(12): Google_Client->setAuthConfig('My-Project-0354...')
+#1 /home/aspenstrong/public_html/analytics/HelloAnalytics.php(72): getService()
+#2 {main}
+  thrown in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php on line 171
+[25-Jan-2017 05:38:48 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Exception' with message 'Invalid client secret JSON file.' in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php:171
+Stack trace:
+#0 /home/aspenstrong/public_html/analytics/HelloAnalytics.php(12): Google_Client->setAuthConfig('My-Project-0354...')
+#1 /home/aspenstrong/public_html/analytics/HelloAnalytics.php(72): getService()
+#2 {main}
+  thrown in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php on line 171
+[25-Jan-2017 05:40:05 Etc/GMT] PHP Fatal error:  Uncaught exception 'Google_Exception' with message 'Invalid client secret JSON file.' in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php:171
+Stack trace:
+#0 /home/aspenstrong/public_html/analytics/HelloAnalytics.php(12): Google_Client->setAuthConfig('My-Project-0354...')
+#1 /home/aspenstrong/public_html/analytics/HelloAnalytics.php(72): getService()
+#2 {main}
+  thrown in /home/aspenstrong/public_html/analytics/google-api-php-client/src/Google/Client.php on line 171
+[25-Jan-2017 05:40:07 Etc/GMT] PHP Fatal error:  Call to undefined method Google_Client::useApplicationDefaultCredentials() in /home/aspenstrong/public_html/analytics/HelloAnalytics.php on line 13
+[25-Jan-2017 05:40:08 Etc/GMT] PHP Fatal error:  Call to undefined method Google_Client::useApplicationDefaultCredentials() in /home/aspenstrong/public_html/analytics/HelloAnalytics.php on line 13

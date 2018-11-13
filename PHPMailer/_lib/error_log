@@ -1,0 +1,25 @@
+[10-Aug-2017 06:03:17 Etc/GMT] PHP Deprecated:  Function split() is deprecated in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 472
+[10-Aug-2017 06:17:40 Etc/GMT] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:17:40 Etc/GMT] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:17:40 Etc/GMT] PHP Fatal error:  Class 'SMTP' not found in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 583
+[10-Aug-2017 06:18:34 Etc/GMT] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:18:34 Etc/GMT] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:18:34 Etc/GMT] PHP Fatal error:  Class 'SMTP' not found in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 583
+[10-Aug-2017 06:25:59 Etc/GMT] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:25:59 Etc/GMT] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:25:59 Etc/GMT] PHP Fatal error:  Class 'SMTP' not found in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 583
+[10-Aug-2017 06:28:04 Etc/GMT] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:28:04 Etc/GMT] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:28:04 Etc/GMT] PHP Fatal error:  Class 'SMTP' not found in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 583
+[10-Aug-2017 06:28:08 Etc/GMT] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:28:08 Etc/GMT] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:28:08 Etc/GMT] PHP Fatal error:  Class 'SMTP' not found in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 583
+[10-Aug-2017 06:28:54 Etc/GMT] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:28:54 Etc/GMT] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:28:54 Etc/GMT] PHP Fatal error:  Class 'SMTP' not found in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 583
+[10-Aug-2017 06:38:54 Etc/GMT] PHP Notice:  Use of undefined constant smtp - assumed 'smtp' in /home/aspenstrong/public_html/PHPMailer/_lib/mail.php on line 6
+[10-Aug-2017 06:38:54 Etc/GMT] PHP Notice:  Use of undefined constant gmail - assumed 'gmail' in /home/aspenstrong/public_html/PHPMailer/_lib/mail.php on line 6
+[10-Aug-2017 06:38:54 Etc/GMT] PHP Notice:  Use of undefined constant com - assumed 'com' in /home/aspenstrong/public_html/PHPMailer/_lib/mail.php on line 6
+[10-Aug-2017 06:38:54 Etc/GMT] PHP Warning:  include_once(class.smtp.php): failed to open stream: No such file or directory in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:38:54 Etc/GMT] PHP Warning:  include_once(): Failed opening 'class.smtp.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 515
+[10-Aug-2017 06:38:54 Etc/GMT] PHP Fatal error:  Class 'SMTP' not found in /home/aspenstrong/public_html/PHPMailer/_lib/class.phpmailer.php on line 583
